@@ -1,0 +1,23 @@
+#login-form input {
+  height: 30px;
+  font-size: 20px;
+  color: white;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+
+#login-form ::placeholder {
+  color: white;
+  opacity: 0.8;
+}
+
+#login-form input:first-child {
+  width: 250px;
+  border-bottom: 1px solid white;
+  padding-left: 10px;
+}
+
+#login-form input:last-child {
+  cursor: pointer;
+}

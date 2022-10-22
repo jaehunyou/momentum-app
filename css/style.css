@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import "login-forms.css";
+@import "todos.css";
+@import "quote.css";
+
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin: 0;
+  justify-content: space-evenly;
+  background-size: contain;
+}
+
+h1,
+h2,
+form,
+div,
+ul,
+span {
+  color: white;
+}
+
+.bg-img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -999999;
+}
+
+.hidden {
+  display: none;
+}
+
+.header {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#clock {
+  font-size: 96px;
+  margin: 10px 0px;
+}
+
+#weather {
+  padding-top: 60px;
+  font-size: 28px;
+  opacity: 0.8;
+}
+
+#greeting {
+  font-size: 40px;
+  margin: 0;
+}

@@ -1,4 +1,4 @@
-const images = ["0.jpg", "1.jpg", "2.jpg", "3.jpg", "4.jpg"]; //img폴더에서 img불러오기
+const images = ["0.jpg", "1.jpg", "2.jpg", "3.jpg"]; //img폴더에서 img불러오기
 
 const chosenImage = images[Math.floor(Math.random() * images.length)]; //image array에서 랜덤한 이미지 불러오기
 
